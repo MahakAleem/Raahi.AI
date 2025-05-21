@@ -6,13 +6,23 @@ from folium.plugins import MarkerCluster
 from folium import CustomIcon
 from streamlit_option_menu import option_menu
 import google.generativeai as genai
+import os
 
-# Gemini API setup
-GEMINI_API_KEY = st.secrets.get("GEMINI_API_KEY")
-if not GEMINI_API_KEY:
-    st.error("Please provide your Gemini API key in Streamlit secrets.")
-    st.stop()
-genai.configure(api_key=GEMINI_API_KEY)
+# st.secrets = {
+#     "api_keys": {
+#         "gpt_key": os.environ.get("API_KEY")
+#     }
+# }
+
+# # Usage
+# api_key = st.secrets["api_keys"]["gpt_key"]
+
+# # Gemini API setup
+# GEMINI_API_KEY = api_key
+# if not GEMINI_API_KEY:
+#     st.error("Please provide your Gemini API key in Streamlit secrets.")
+#     st.stop()
+# genai.configure(api_key)
 model = genai.GenerativeModel('gemini-2.0-flash')
 
 # Page Config
