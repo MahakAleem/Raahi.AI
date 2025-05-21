@@ -1,6 +1,6 @@
 streamlit
 pandas
-geopandas
 folium
 streamlit-folium
-openai
+streamlit-option-menu
+google-generativeai
