@@ -1,0 +1,52 @@
+# 🐍 Python bytecode
+pycache/
+*.py[cod]
+*$py.class
+
+# 🚫 Virtual environment
+venv/
+env/
+.venv/
+ENV/
+.env/
+
+# 📂 IDE and editor folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 🔐 Environment variables
+*.env
+.env.*
+
+# 📦 Package/build artifacts
+dist/
+build/
+*.egg-info/
+
+# 📃 Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# 🚀 PyInstaller
+*.spec
+
+# 🔎 Coverage/test reports
+.coverage
+coverage.xml
+htmlcov/
+pytest_cache/
+nosetests.xml
+test-results/
+
+# 📁 Logs
+*.log
+logs/
+
+# 🧪 Pylint and MyPy
+.mypy_cache/
+.pytest_cache/
+.pyre/
+
+# 🧪 Streamlit cache
+.streamlit/
