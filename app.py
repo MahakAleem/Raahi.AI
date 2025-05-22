@@ -69,18 +69,18 @@ data = pd.DataFrame({
         "https://en.wikipedia.org/wiki/Durga_Puja", "https://en.wikipedia.org/wiki/Konark_Sun_Temple", "https://en.wikipedia.org/wiki/Hampi", "https://en.wikipedia.org/wiki/Nalanda_University"
     ],
     "image_url": [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Hawa_Mahal_Jaipur.jpg/300px-Hawa_Mahal_Jaipur.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Kathakali_dancer_at_Kerala_Kathakali_Centre.jpg/300px-Kathakali_dancer_at_Kerala_Kathakali_Centre.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCtFW1hia9gfEsF_pYtAKaxexT2NrcrVgL9g&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJuUzEq1sEDz-v1Ny5WxTq8jZzbmiFF5_2YQ&s",
         "https://s7ap1.scene7.com/is/image/incredibleindia/taj-mahal-agra-uttar-pradesh-2-attr-hero?qlt=82&ts=1726650323712",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8K3DnapDfNZ19h5mXckppFcNBw-Ker0QZww&s",
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Bharatanatyam_dancer.jpg/300px-Bharatanatyam_dancer.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Majuli_Island_Assam.jpg/300px-Majuli_Island_Assam.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Bhangra_performance_in_Surajkund_Mela_2012.jpg/300px-Bhangra_performance_in_Surajkund_Mela_2012.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Durga_Puja_Idol_Immersion_Kolkata_2019_IMG_7539.jpg/300px-Durga_Puja_Idol_Immersion_Kolkata_2019_IMG_7539.jpg",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQokUVzngWT9CAVTqMGRan_gBuQCwfhRQK4Rg&s",
-        "https://assets-news.housing.com/news/wp-content/uploads/2022/08/31020547/places-to-visit-in-hampi-FEATURE-compressed.jpg",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcxpTs4-h_L3kngXwJ68njjJf1OfMm8ll1MQ&s",
-        "http://googleusercontent.com/image_collection/image_retrieval/8568966869183654196"
+        "https://thrillingtravel.in/wp-content/uploads/2024/02/Rann-utsav-guide.jpg",
+        "https://media.istockphoto.com/id/528284252/photo/kjaruharo-temples-india.jpg?s=612x612&w=0&k=20&c=-iWM83PbINoAS5i_06cVjIDpe_yT0cE3uw0_iPoeWHM=",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNX0byPOktSHWK3g9SKd-FviuVFHmYKaowQg&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGQTuPYR3DD4yF6tsPM6J8QzrNuebu26cGMQ&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZktivlC7XNMJLCJIQB7OJ58jRm_YsL9N-bQ&s",
+        "https://pragyata.com/wp-content/uploads/2020/10/Durga-Puja-Odisha.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxjp0IJRrRoHc0yuziqFxYjuBojswfNPdC1Q&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjsxi6QP57REO1QFV1Hq47Vtc5PPVBAUt_5w&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaAUjZrSmm3NNS32CxwBdeESe1QABdUsK8Rw&s"
     ],
     "description": [
         "An annual art festival held in Jaipur showcasing contemporary and traditional art.",
