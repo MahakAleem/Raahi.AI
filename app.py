@@ -14,15 +14,16 @@ import os
 #     }
 # }
 
-# # Usage
-# api_key = st.secrets["api_keys"]["gpt_key"]
+# Usage
+# Load API key from environment
+api_key = os.environ.get("GEMINI_API_KEY")
 
-# # Gemini API setup
-# GEMINI_API_KEY = api_key
-# if not GEMINI_API_KEY:
-#     st.error("Please provide your Gemini API key in Streamlit secrets.")
-#     st.stop()
-# genai.configure(api_key)
+# Gemini API setup
+if not api_key:
+    st.error("Please provide your Gemini API key via environment variable 'GEMINI_API_KEY'.")
+    st.stop()
+
+genai.configure(api_key=api_key)  # ✅ FIXED HERE
 model = genai.GenerativeModel('gemini-2.0-flash')
 
 # Page Config
